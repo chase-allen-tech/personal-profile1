@@ -1,12 +1,10 @@
-import React, { Component } from 'react';
-import { Image } from 'react-bootstrap';
-import { Link } from 'react-scroll';
-import Particles from 'react-tsparticles';
-import './Home.css';
+import React, { Component } from "react";
+import { Image } from "react-bootstrap";
+import { Link } from "react-scroll";
+import Particles from "react-tsparticles";
+import "./Home.css";
 
 export default class Home extends Component {
-
-
   render() {
     return (
       <div className="home-section" id="home">
@@ -16,22 +14,22 @@ export default class Home extends Component {
           options={{
             background: {
               color: {
-                value: ""
+                value: "",
               },
               image: "",
               position: "center",
               repeat: "",
               size: "",
-              opacity: 1
+              opacity: 1,
             },
             backgroundMask: {
               cover: {
                 color: {
-                  value: "#fff"
+                  value: "#fff",
                 },
-                opacity: 1
+                opacity: 1,
               },
-              enable: false
+              enable: false,
             },
             detectRetina: true,
             fpsLimit: 30,
@@ -40,20 +38,20 @@ export default class Home extends Component {
               delay: 0,
               enable: false,
               infections: 0,
-              stages: []
+              stages: [],
             },
             interactivity: {
               detectsOn: "canvas",
               events: {
                 onClick: {
                   enable: true,
-                  mode: []
+                  mode: [],
                 },
                 onDiv: {
                   ids: [],
                   enable: false,
                   mode: [],
-                  type: "circle"
+                  type: "circle",
                 },
                 onHover: {
                   enable: false,
@@ -61,72 +59,72 @@ export default class Home extends Component {
                   parallax: {
                     enable: true,
                     force: 50,
-                    smooth: 10
-                  }
+                    smooth: 10,
+                  },
                 },
-                resize: true
+                resize: true,
               },
               modes: {
                 attract: {
                   distance: 200,
                   duration: 0.4,
-                  speed: 1
+                  speed: 1,
                 },
                 bubble: {
                   distance: 200,
-                  duration: 0.4
+                  duration: 0.4,
                 },
                 connect: {
                   distance: 40,
                   links: {
-                    opacity: 0.5
+                    opacity: 0.5,
                   },
-                  radius: 60
+                  radius: 60,
                 },
                 grab: {
                   distance: 100,
                   links: {
-                    opacity: 1
-                  }
+                    opacity: 1,
+                  },
                 },
                 push: {
-                  quantity: 4
+                  quantity: 4,
                 },
                 remove: {
-                  quantity: 2
+                  quantity: 2,
                 },
                 repulse: {
                   distance: 200,
                   duration: 0.4,
-                  speed: 1
+                  speed: 1,
                 },
                 slow: {
                   factor: 3,
-                  radius: 200
+                  radius: 200,
                 },
                 trail: {
                   delay: 1,
-                  quantity: 1
-                }
-              }
+                  quantity: 1,
+                },
+              },
             },
             particles: {
               collisions: {
                 enable: true,
-                mode: "bounce"
+                mode: "bounce",
               },
               color: {
                 value: "#fff",
                 animation: {
                   enable: false,
                   speed: 1,
-                  sync: true
-                }
+                  sync: true,
+                },
               },
               links: {
                 blink: false,
                 color: {
-                  value: "#fff"
+                  value: "#fff",
                 },
                 consent: false,
                 distance: 200,
@@ -135,15 +133,15 @@ export default class Home extends Component {
                 shadow: {
                   blur: 5,
                   color: {
-                    value: "#00ff00"
+                    value: "#00ff00",
                   },
-                  enable: false
+                  enable: false,
                 },
                 triangles: {
-                  enable: false
+                  enable: false,
                 },
                 width: 1,
-                warp: false
+                warp: false,
               },
               move: {
                 angle: 90,
@@ -151,8 +149,8 @@ export default class Home extends Component {
                   enable: false,
                   rotate: {
                     x: 3000,
-                    y: 3000
-                  }
+                    y: 3000,
+                  },
                 },
                 direction: "none",
                 enable: true,
@@ -160,11 +158,11 @@ export default class Home extends Component {
                   delay: {
                     random: {
                       enable: false,
-                      minimumValue: 0
+                      minimumValue: 0,
                     },
-                    value: 0
+                    value: 0,
                   },
-                  enable: false
+                  enable: false,
                 },
                 outMode: "out",
                 random: false,
@@ -174,59 +172,59 @@ export default class Home extends Component {
                   enable: false,
                   length: 10,
                   fillColor: {
-                    value: "#000000"
-                  }
+                    value: "#000000",
+                  },
                 },
                 vibrate: false,
-                warp: false
+                warp: false,
               },
               number: {
                 density: {
                   enable: false,
                   area: 800,
-                  factor: 1000
+                  factor: 1000,
                 },
                 limit: 200,
-                value: 50
+                value: 50,
               },
               opacity: {
                 animation: {
                   enable: false,
                   minimumValue: 0,
                   speed: 2,
-                  sync: false
+                  sync: false,
                 },
                 random: {
                   enable: false,
-                  minimumValue: 1
+                  minimumValue: 1,
                 },
-                value: 0.15
+                value: 0.15,
               },
               rotate: {
                 animation: {
                   enable: false,
                   speed: 0,
-                  sync: false
+                  sync: false,
                 },
                 direction: "clockwise",
                 path: false,
                 random: false,
-                value: 0
+                value: 0,
               },
               shadow: {
                 blur: 0,
                 color: {
-                  value: "#000000"
+                  value: "#000000",
                 },
                 enable: false,
                 offset: {
                   x: 0,
-                  y: 0
-                }
+                  y: 0,
+                },
               },
               shape: {
                 options: {},
-                type: "circle"
+                type: "circle",
               },
               size: {
                 animation: {
@@ -235,38 +233,40 @@ export default class Home extends Component {
                   minimumValue: 0,
                   speed: 5,
                   startValue: "max",
-                  sync: false
+                  sync: false,
                 },
                 random: {
                   enable: false,
-                  minimumValue: 1
+                  minimumValue: 1,
                 },
-                value: 2
+                value: 2,
               },
               stroke: {
-                width: 0
+                width: 0,
               },
               twinkle: {
                 lines: {
                   enable: false,
                   frequency: 0.05,
-                  opacity: 1
+                  opacity: 1,
                 },
                 particles: {
                   enable: false,
                   frequency: 0.05,
-                  opacity: 1
-                }
-              }
+                  opacity: 1,
+                },
+              },
             },
-            pauseOnBlur: true
+            pauseOnBlur: true,
           }}
         />
         <div className="intro">
-          <div className="name">Chase A.</div>
-          <div className="desc">Software Engineer</div>
+          <div className="name">Jacob R.</div>
+          <div className="desc">Sr. React Developer</div>
         </div>
-        <Link className="learn-more" activeClass="active" to="about" spy={true} smooth={true} offset={-70} duration={1000}>LEARN MORE<br></br>⌵</Link>
+        <Link className="learn-more" activeClass="active" to="about" spy={true} smooth={true} offset={-70} duration={1000}>
+          LEARN MORE<br></br>⌵
+        </Link>
       </div>
     );
   }

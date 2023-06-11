@@ -1,12 +1,12 @@
-import React, { Component } from 'react';
-import './Footer.css';
+import React, { Component } from "react";
+import "./Footer.css";
 
 export default class Footer extends Component {
   render() {
     return (
       <div className="footer-section" id="contact">
         <div className="e-mail">
-          <div>chase.allen.tech@gmail.com</div>
+          <div>jradack.tech@gmail.com</div>
           <div>+1 650 385 8062</div>
         </div>
         <div className="copyright">
