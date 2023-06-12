@@ -24,6 +24,10 @@ export default class CustomNavbar extends Component {
     });
   }
 
+  useEffect(() => {
+
+  }, [])
+
   componentWillUnmount() {
     window.removeEventListener("scroll");
   }
