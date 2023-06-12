@@ -21,8 +21,8 @@ export default class About extends Component {
               <div className="mt-4">
                 &nbsp;&nbsp; Before talking about qualifications and professional abilities, I would like to introduce myself. I am Jacob. Taking web development as a profession not only fulfils my pocket but also my heart, because it has been my passion since I was a teenager. I have a Bachelor's
                 degree in Computer Science from Kent University and coursework in eCommerce. I have solid knowledge of programming and graphic designing and my works are not only enchanting but also integrated with graphics, powerful logic and great insight. I am also skillful in problem solving
-                methods and acquainted with computer languages like React JS, JavaScript, Node and Python. I have worked on 40+ Node.js & Python projects and solved complex business problems, including eCommerce, real estate and online education. I have consistently saved costs while increasing
-                profits exponentially.
+                methods and acquainted with computer languages like React JS, JavaScript, Node and Python. I have worked on 20+ React projects and solved complex business problems, including eCommerce, real estate and online education. I have consistently saved costs while increasing profits
+                exponentially.
               </div>
               <div className="mt-4">
                 &nbsp;&nbsp;Besides, my websites are SEO friendly because it did not fail to satisfy the users. Again, I keep myself up to date with new technologies and their uses, new tools and computer languages so that I can give my best level to my clients. I believe in hardship and hiring me
